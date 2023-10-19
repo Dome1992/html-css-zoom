@@ -83,9 +83,9 @@ footer{
     bottom: 0;
     left: 0;
     z-index: 100;
-    display: flex;
+    
     align-items: center;
-    background-color: black;
+    background-color: rgb(34, 34, 34);
 }
 .box-footer{
     /*background-color: rgb(32, 32, 32);
@@ -98,6 +98,7 @@ footer{
     flex-basis: 15%;
     padding-left: 5px;
     display: flex;
+    justify-content: space-between;
 
     
 }
