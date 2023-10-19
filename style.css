@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    height: 100vh;
+    
+}
+
+.conteiner{
+    display: flex;
+    background-color: black;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section{
+    background-color: blue;
+    position: relative;
+    width: 15%;
+    height: 200px;
+    margin:1px;
+    margin-bottom:1px;
+    display: flex;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+   }
+span{
+    color: white;
+} 
+footer{
+    background-color: rgb(32, 32, 32);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*#wrapper{
+
+    height: 100vh;
+    display:flex;
+
+}
+
+#player-conteiner{
+    flex-grow: 1;
+    height:100%;
+    position: relative;
+    background-color: brown;
+    background-image: url(img/battaglia.png);
+}
+#player{
+    position: absolute;
+    left:0;
+    bottom:0;
+    border-top: 4px solid red;
+    height: 70px;
+    width: 50%;
+
+}
+
+#suggested{
+    width: 50%;
+    height: 100%;
+    /*background-color: blue;
+    overflow: auto;
+       
+}
+.bottom-left {
+    bottom: 25px;
+    left: 8px;
+    position: relative;
+   }
+
+.img-item{
+    max-width: 30%;
+}*/
