@@ -35,7 +35,7 @@ main{
 .conteiner{
     display: flex;
     background-color: black;
-    height: 100%;
+    height:100vh;
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: auto;
@@ -99,6 +99,7 @@ footer{
     padding-left: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     
 }
